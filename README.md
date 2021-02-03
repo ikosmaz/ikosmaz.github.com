@@ -1,2 +1,2 @@
-# ikosmaz.github.com
+# ikosmaz.github.io
 Html coding trials
