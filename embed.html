@@ -5,15 +5,15 @@
  <title>Twitter & Facebook Embedding</title>
  <style>
        body   {background-color: lightgreen;
-               margin-left:13%;
+               margin:5%;
                margin-top: 2%;
               }
        p, h1, h2 {text-align:center;
-               color: white;
-               transition: 0.2s;
-              }
+                 color: white;
+                 transition: 0.2s;
+                 }
        header {
-               width:83%;
+               width:100%;
                height:10%;
                border:2px solid black;
                border-radius:1rem;
@@ -29,10 +29,9 @@
               border:2px solid black;
               border-radius:0.75rem;
               background: black;
-
             }
-h1:hover,h2:hover{font-size:170%;
-                  }
+h1:hover,h2:hover{font-size:170%;}
+a:link {color:white;}
    </style>
 </head>
 <body>
@@ -40,7 +39,7 @@ h1:hover,h2:hover{font-size:170%;
     <h1>This page is an example to show how to embed social medias to a web page</h1>
   </header>
 <div>
-   <div style="width:40%; height:auto; float:left">
+   <div style="margin-left: 3%; width:45%; height:auto; float:left">
       <h2>Twitter page is here!</h2>
         <div style="height: 60rem; overflow: auto; border:1px solid black">
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -49,13 +48,13 @@ h1:hover,h2:hover{font-size:170%;
    </div>
 
    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="ntVKA6aC"></script>
-      <div style="margin-left:3%;width:40%; height: auto; float:left">
+      <div style="margin-left:4%;width:45%; height: auto; float:left">
         <h2>Facebook page is here!</h2>
         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2FSunisliler-1475003929413614%2Fposts%2F&tabs=timeline&width=500&height=1000&small_header=false&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="100%"  style="background:white; border:1px solid black; height:60rem; overflow:auto" scrolling="yes" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
         </iframe>
       </div></div>
 
-      <div style="width:83%; float:left">
+      <div style="width:100%; float:left">
         <footer>
         <h2 style="line-height:0.75rem">Some additional info here!</h2>
         <p><a href="mailto:isakosmaz@gmail.com">Made by Isa KOSMAZ</a></p>
